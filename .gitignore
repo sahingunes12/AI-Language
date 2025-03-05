@@ -1,0 +1,66 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Flask/FastAPI
+instance/
+.webassets-cache
+
+# Streamlit
+.streamlit/
+
+# Veritabanı
+*.db
+*.sqlite
+*.sqlite3
+
+# Ortam değişkenleri ve gizli bilgiler
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+
+# Log dosyaları
+*.log
+logs/
+
+# IDE klasörleri
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Lokal cache ve diğer dosyalar
+.cache/
+.coverage
+htmlcov/
+.pytest_cache/ 
